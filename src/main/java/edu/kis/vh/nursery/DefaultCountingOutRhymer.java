@@ -6,7 +6,13 @@ public class DefaultCountingOutRhymer {
 
     private int[] numbers = new int[12];
 
-    public int total = T;
+
+    public int getTotal() {
+        return total;
+    }
+
+    private int total = T;
+
 
     public void countIn(int in) {
         if (!isFull())
